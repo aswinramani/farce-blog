@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body style="color:#0066cc;background-color:#d9d9d9;">
+<div class="container-fluid">    
+    
+  <%= link_to 'Home', root_path , style: 'text-decoration:none;'%>
+  <%= link_to 'About', about_path , style: 'text-decoration:none;' %> 
+  <%= link_to 'Articles', articles_path , style: 'text-decoration:none;' %>    
+<h3>Article 1</h3>    
+<blockquote>
+ <p> <em>Does anyone remember what Patrice Evra said five years ago? Wenger still hasnt managed to answer it! Evra clearly labelled Arsenal as a mere training centre and a club in crisis. Worst of all, Evra even said people will forget <code> Arsenal</code> in 20 years! Doesnt certainly look that way or does it? </em></p>       
+<footer> <a href="http://www.theguardian.com/football/2010/dec/10/patrice-evra-crisis-club-arsenal">Guardian News</a></footer>
+</blockquote>
+    
+<h3 class="text-right" style="padding-right:30px">Article 2</h3>    
+<blockquote class="blockquote-reverse">
+ <p> <em>I know for a fact that no many gooners like Mourinho. But what you think about the comments made by him indirectly(well its direct enough) towards Wenger,when he said that there is one manager who manages to keep his job despite not achieving.</em></p>       
+<footer> <a href="http://www.espnfc.com/chelsea/story/2630666/jose-mourinho-only-one-manager-is-not-under-pressure">ESPNFC</a></footer>
+</blockquote>
+    
+    
+    
+<footer>
+<p class="text-center" style="color:#28a4a4;padding-top:250px">&copy; 2016 thefarce blog | Site is under development | Meant for learning purpose only </p>
+</footer>    
+    
+
+</div>    
+    
+</body>    
+</html>
